@@ -4,7 +4,7 @@ import { GeistSans } from "geist/font/sans";
 import { type Metadata } from "next";
 
 import { TRPCReactProvider } from "@/trpc/react";
-import Providers from "./_components/providers";
+import Providers from "../components/providers";
 
 export const metadata: Metadata = {
   title: "Docshare",
