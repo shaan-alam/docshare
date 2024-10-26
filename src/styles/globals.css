@@ -2,6 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+:root {
+  --font-sans: ${sans.style.fontFamily};
+  --font-serif: ${serif.style.fontFamily};
+  --font-mono: ${mono.style.fontFamily};
+}
+
 @layer base {
   :root {
     --background: 0 0% 100%;

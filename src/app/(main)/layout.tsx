@@ -7,7 +7,7 @@ const Layout = ({ children }: PropsWithChildren) => {
     <div>
       <SidebarProvider>
         <AppSidebar />
-        <main className="p-4">
+        <main className="w-full p-4">
           <SidebarTrigger />
           {children}
         </main>
